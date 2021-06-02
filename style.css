@@ -421,12 +421,12 @@ body.menu--open .nav{
 }
 .slick-slide.slick-current .circle{
 	border: 4px solid #9c07b3;
-	opacity: 1;
+	opacity: 1 !important;
 	-webkit-box-shadow: 0 10px 11px rgb(156 7 179 / 13%);
 	        box-shadow: 0 10px 11px rgb(156 7 179 / 13%);
 }
 .slick-slide .circle{
-	opacity: 0.3;
+	opacity: 0.3 !important;
 }
 .slide-nav .slick-track{
 	display: -webkit-box;
